@@ -1,2 +1,2 @@
 # TaskTracker
-Simple Task Tracker as java learning project
+Simple Task Tracker as a java learning project
