@@ -1,21 +1,21 @@
-# TaskTracker
+# TaskTracker ✔️
 
 **IlRasp's TLCli** is a task tracker made in jave and uses command line interface
 
 ---
 
-## Project content
+## Project content 🗂️
 
 * `out/production/TaskTracker/` -> Contains compiled files (.class)
 * `src/` -> Cantains Java source code
 
-## How to run the application
+## How to run the application 🚀
 
 1. Open the project in your favourite txt editor
 2. Import the Gson library
 3. Run TaskList.java
 
-## Manual
+## Manual 📖
 
 ### mhtask
 
@@ -48,3 +48,15 @@ Type *'rm'* then the task's id to delete it
 > Changes the description of a task
 
 Type *'chtask'* then the task's id and the new description you want to replace the old one with
+
+### chstat
+
+> Changes the status of a task
+
+Type *'chstat'* then the task's id and the new status (To do, In progress, Done)
+
+### stop
+
+> Stops the program
+
+Simply stops the program
