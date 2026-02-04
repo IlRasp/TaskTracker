@@ -41,4 +41,10 @@ Type *'ls'* to see a list of all tasks. Displays:
 
 > Removes a task based on it's id
 
-Type rm then the task's id to delete it
+Type *'rm'* then the task's id to delete it
+
+### chtask
+
+> Changes the description of a task
+
+Type *'chtask'* then the task's id and the new description you want to replace the old one with
