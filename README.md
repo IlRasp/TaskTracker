@@ -11,9 +11,9 @@
 
 ## How to run the application 🚀
 
-1. Open the project in your favourite txt editor
-2. Import the Gson library
-3. Run TaskList.java
+1. Download the latest version
+2. Run TaskTracker.jar using this command: `java -jar TaskTracker.jar`
+3. if any error occur make sure you are in the folder were you have installed TaskTracker.jar and make sure gson-2.13.2.jar is also present
 
 ## Manual 📖
 
@@ -29,7 +29,15 @@ Type *'mhtask'* in the command line to create a new task then type the descripti
 
 Type *'ls'* to see a list of all tasks. Displays:
 
-`ID   Description -> Status`
+`ID  Description -> Status`
+
+### more
+
+> Show all the attributes of a tasks based on it's id
+
+Type *'more'* then the tasks id. Displays:
+
+`ID  Description -> Status (Status numerical value)  Creation date and time | Last modification date and time`
 
 ##### Modifiers
 
