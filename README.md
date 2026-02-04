@@ -31,6 +31,12 @@ Type *'ls'* to see a list of all tasks. Displays:
 
 `ID  Description -> Status`
 
+##### Modifiers
+
+* -t Shows only tasks with a To do status (0)
+* -p Shows only tasks with an In progress status (1)
+* -d Shows only tasks with a Done status (2)
+
 ### more
 
 > Show all the attributes of a tasks based on it's id
@@ -38,12 +44,6 @@ Type *'ls'* to see a list of all tasks. Displays:
 Type *'more'* then the tasks id. Displays:
 
 `ID  Description -> Status (Status numerical value)  Creation date and time | Last modification date and time`
-
-##### Modifiers
-
-* -t Shows only tasks with a To do status (0)
-* -p Shows only tasks with an In progress status (1)
-* -d Shows only tasks with a Done status (2)
 
 ### rm
 
