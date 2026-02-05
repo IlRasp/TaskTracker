@@ -1,0 +1,2 @@
+Main-Class: tasktracker.TaskList
+Class-Path: gson-2.13.2.jar
