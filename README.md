@@ -27,7 +27,7 @@ Type *'mhtask'* in the command line to create a new task then type the descripti
 
 ##### Modifiers
 
-* -i Creates a task with a custom id
+* -i = Creates a task with a custom id
 
 ### ls
 
@@ -39,9 +39,9 @@ Type *'ls'* to see a list of all tasks. Displays:
 
 ##### Modifiers
 
-* -t Shows only tasks with a To do status (0)
-* -p Shows only tasks with an In progress status (1)
-* -d Shows only tasks with a Done status (2)
+* -t = Shows only tasks with a To do status (0)
+* -p = Shows only tasks with an In progress status (1)
+* -d = Shows only tasks with a Done status (2)
 
 ### more
 
@@ -60,9 +60,9 @@ Type *'rm'* then the task's id to delete it
 ##### modifiers
 
 
-* -t Removes all To do tasks (0)
-* -p Removes all In progress tasks (1)
-* -d Removes all Done tasks (2)
+* -t = Removes all To do tasks (0)
+* -p = Removes all In progress tasks (1)
+* -d = Removes all Done tasks (2)
 
 ### chtask
 
@@ -79,9 +79,9 @@ Type *'chstat'* then the task's id and write the new status (To do, In progress,
 ##### modifiers
 
 
-* -t Changes the status of all To do tasks to the chosen one (0)
-* -p Changes the status of all In progress tasks to the chosen one (1)
-* -d Changes the status of all Done tasks to the chosen one (2)
+* -t = Changes the status of all To do tasks to the chosen one (0)
+* -p = Changes the status of all In progress tasks to the chosen one (1)
+* -d = Changes the status of all Done tasks to the chosen one (2)
 
 ### td
 
