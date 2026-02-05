@@ -19,11 +19,15 @@
 
 ## Manual 📖
 
-### mhtask
+### mktask
 
 > Creates a new task
 
 Type *'mhtask'* in the command line to create a new task then type the description of the task at it will be saved on the SAVE.json file with a default status of 0 (To do)
+
+##### Modifiers
+
+* -i Creates a task with a custom id
 
 ### ls
 
