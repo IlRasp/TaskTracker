@@ -13,7 +13,7 @@
 
 1. Download the latest version
 2. Run TaskTracker.jar using this command: `java -jar TaskTracker.jar`
-3. if any error occur make sure you are in the folder were you have installed TaskTracker.jar and make sure gson-2.13.2.jar is also present
+3. if any error occur make sure you are in the folder were you have installed TaskTracker.jar, make sure gson-2.13.2.jar is also present and update java to the latest version
 
 ## Manual 📖
 
