@@ -125,10 +125,10 @@ Type *'del'* to delete Save.json
 
 > Clears the terminal
 
-Type *'clr'* to clear the terminal (Only works inside CMD PowerShell and Linux terminal doesn't work in IDE's terminals)
+Type *'clr'* to clear the terminal. It only works inside CMD PowerShell and Linux terminal doesn't work in IDE's terminals (also works with *'clear'* and *'cls'*)
 
-### stop
+### exit
 
-> Stops the program
+> Exits the program
 
 Simply stops the program
