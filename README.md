@@ -14,8 +14,10 @@
 ## How to run the application 🚀
 
 1. Download the latest version
-2. Double click on TaskTracker.bat
-3. Make sure you have the latest java version installed and that TaskTracker.bat is in the same folder as TaskTracker.jar and gson-2.13.2.jar
+2. Extract the folder
+3. Open it in a terminal or double click on TaskTracker.bat
+4. If you opened it in a terminal make sure to run `java -jar .\TaskTracker.jar`
+5. Make sure you have the latest java version installed and that TaskTracker.bat is in the same folder as TaskTracker.jar and gson-2.13.2.jar
 
 ## Manual 📖
 
