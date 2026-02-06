@@ -60,7 +60,7 @@ public class Commands {
 
         if(Objects.equals(scn.nextLine(), "y")) {
             save.delete();
-            System.out.println("Save deleted");
+            System.out.println("\nSave deleted");
         } else if (Objects.equals(scn.nextLine(), "n")) {
             return;
         } else {
@@ -85,7 +85,7 @@ public class Commands {
         System.out.println("\u001B[36m" + "load" + "\u001B[0m" + ": manually loads");
         System.out.println("\u001B[36m" + "del" + "\u001B[0m" + ": deletes the save file");
         System.out.println("\u001B[36m" + "clr" + "\u001B[0m" + ": clears the console");
-        System.out.println("\u001B[36m" + "stop" + "\u001B[0m" + ": terminates the program");
+        System.out.println("\u001B[36m" + "exit" + "\u001B[0m" + ": terminates the program");
     }
 
     public void mktask() {
