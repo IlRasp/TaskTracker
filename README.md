@@ -1,6 +1,6 @@
 # TaskTracker ✔️
 
-**IlRasp's TLCli** is a task tracker made in jave and uses command line interface
+**IlRasp's TLCli** is a task tracker made for [roadmap.sh](https://roadmap.sh/)'s [TaskTracker](https://roadmap.sh/projects/task-tracker) project
 
 ---
 
