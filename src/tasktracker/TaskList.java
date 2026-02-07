@@ -14,7 +14,7 @@ public class TaskList {
 
         Scanner scn = new Scanner(System.in);
 
-        System.out.println("\u001B[33m" + "Welcome To IlRasp's TLCli version: 1.7.4" + "\u001B[0m");
+        System.out.println("\u001B[33m" + "Welcome To IlRasp's TLCli version: 1.7.5" + "\u001B[0m");
 
         while (running) {
 

@@ -164,6 +164,7 @@ public class Commands {
     public void ls() {
         System.out.println();
         String status = "";
+        boolean files = false;
         for (int j = 1; j <= tsk[0].status; j++) {
             if (tsk[j] == null) {
                 continue;
@@ -171,43 +172,66 @@ public class Commands {
             switch (tsk[j].status) {
                 case 0:
                     status = "\u001B[31m" + "To do" + "\u001B[0m";
+                    files = true;
                     break;
                 case 1:
                     status = "\u001B[33m" + "In progress" + "\u001B[0m";
+                    files = true;
                     break;
                 case 2:
                     status = "\u001B[32m" + "Done" + "\u001B[0m";
+                    files = true;
                 default:
                     break;
             }
             System.out.println("\u001B[90m" + tsk[j].id + "\u001B[0m" + "  " + tsk[j].description + "\u001B[90m" + " -> " + "\u001B[0m" + status);
         }
+
+        if (!files) {
+            System.out.println("\u001B[31mThere are no tasks\u001B[0m ('mktask' to create a new task)");
+        }
+
     }
 
     public void lst() {
         System.out.println();
+        boolean files = false;
         for (int j = 1; j <= tsk[0].status; j++) {
             if (tsk[j] != null && tsk[j].status == 0) {
+                files = true;
                 System.out.println("\u001B[90m" + tsk[j].id + "\u001B[0m" + "  " + tsk[j].description);
             }
+        }
+        if (!files) {
+            System.out.println("\u001B[31mThere are no To do tasks\u001B[0m");
         }
     }
 
     public void lsp() {
         System.out.println();
+        boolean files = false;
         for (int j = 1; j <= tsk[0].status; j++) {
             if (tsk[j] != null && tsk[j].status == 1) {
+                files = true;
                 System.out.println("\u001B[90m" + tsk[j].id + "\u001B[0m" + "  " + tsk[j].description);
             }
+        }
+        if (!files) {
+            System.out.println("\u001B[31mThere are no In progress tasks\u001B[0m");
         }
     }
 
     public void lsd() {
         System.out.println();
+        boolean files = false;
         for (int j = 1; j <= tsk[0].status; j++) {
             if (tsk[j] != null && tsk[j].status == 2) {
+                files = true;
                 System.out.println("\u001B[90m" + tsk[j].id + "\u001B[0m" + "  " + tsk[j].description);
             }
+        }
+        if (!files) {
+            System.out.println("\u001B[31mThere are no Done tasks\u001B[0m");
         }
     }
 
@@ -218,17 +242,17 @@ public class Commands {
         if (tsk[id] != null) {
             switch (tsk[id].status) {
                 case 0:
-                    status = "To do";
+                    status = "\u001B[31mTo do\u001B[0m";
                     break;
                 case 1:
-                    status = "In progress";
+                    status = "\u001B[33mIn progress\u001B[0m";
                     break;
                 case 2:
-                    status = "Done";
+                    status = "\u001B[32mDone\u001B[0m";
                 default:
                     break;
             }
-            System.out.println("\n" + tsk[id].id + "    " + tsk[id].description + " -> " + status + " (" + tsk[id].status + ")  |  " + tsk[id].creationTime + " -- " + tsk[id].modTime);
+            System.out.println("\n\u001B[90m" + tsk[id].id + "\u001B[0m    " + tsk[id].description + "\u001B[90m -> \u001B[0m" + status + " (\u001B[34m" + tsk[id].status + "\u001B[0m)  \u001B[90m|\u001B[0m  \u001B[32m" + tsk[id].creationTime + "\u001B[90m -- \u001B[0m\u001B[32m" + tsk[id].modTime + "\u001B[0m");
         } else {
             System.out.println("\u001B[31m" + "The task doesn't exist" + "\u001B[0m");
         }
