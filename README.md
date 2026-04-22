@@ -95,13 +95,13 @@ Type *'td'* then the tasks id to change it's status to To do (0)
 
 > Changes the status of a task to In progress
 
-Type *'td'* then the tasks id to change it's status to In progress (1)
+Type *'prg'* then the tasks id to change it's status to In progress (1)
 
 ### dn
 
 > Changes the status of a task to Done
 
-Type *'td'* then the tasks id to change it's status to Done (2)
+Type *'dn'* then the tasks id to change it's status to Done (2)
 
 ### save
 
